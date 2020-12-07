@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: LightCyan;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-color: MediumAquamarine;
+    text-align: center;
+    flex-direction: row;
+    border-width: 0 0 4px 0;
+    width: 100%;
+}
+
+.gameBody{
+    display: grid;
+    margin-right: auto;
+    margin-top: -20px;
+    grid-template-columns: 200px 600px "main-game"; 
+}
+
+.time {
+   margin-left: 350px;
+}
+
+.level {
+  margin-left: 50px;
+}
+
+.gameName {
+    margin-left: 800px;
+    font-size: 1.5rem;
+}
+
+.gamefield {
+    grid-area: main-game;
+    display: grid;
+    margin-top: -250px;
+    margin-left: 12rem;
+    padding: 2px;
+    width: 500px;
+    height: 500px;
+}
+
+.start {
+    width: 300px;
+    height: 150px;
+    margin-top: 200px;
+    margin-left: 800px;
+    margin-right: auto;
+    border-radius: 1rem;
+    float: left;
+    background-color: Seagreen;
+    font-size: 50px;
+    color: White;
+}
+
+.square {
+    size: auto;
+    margin: 1px;
+}
